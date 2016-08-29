@@ -1,0 +1,70 @@
+{
+    "enabled": true,
+    "coin": "geocoin.json",
+
+    "address": "GT2jYUrn4qauYfXhzjSxBAoadLztVQu86V",
+
+    "rewardRecipients": {
+        "GVWkhG2Rw7SzqtKZCTurvDnCVHaThZfwaA": 0.75,
+        "GddEtuatt1yWjYN2FM5A5EoWHAQnhbLiSY": 0.75
+    },
+
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 29,
+        "minimumPayment": 1,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 9003,
+            "user": "geocoinrpc",
+            "password": "AxTgHP4xanuyuK5jXnYhsjg51UwJN24LJjAD5jndcsHG"
+        }
+    },
+
+    "ports": {
+        "3001": {
+            "diff": 8
+        },
+        "3002": {
+            "diff": 32,
+            "varDiff": {
+                "minDiff": 16,
+                "maxDiff": 8192,
+                "targetTime": 15,
+                "retargetTime": 20,
+                "variancePercent": 40
+            }
+        },
+        "3256": {
+            "diff": 256
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 9003,
+            "user": "geocoinrpc",
+            "password": "AxTgHP4xanuyuK5jXnYhsjg51UwJN24LJjAD5jndcsHG"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}

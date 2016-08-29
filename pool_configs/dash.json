@@ -1,0 +1,71 @@
+{
+    "enabled": false,
+
+    "coin": "dash.json",
+
+    "address": "XdKNG5JaLEuSpGTZXvMYDUSqWkH5KNZp5M",
+
+    "rewardRecipients": {
+        "Xm5A4JrjGAncbqawjcUvV2jANUkpQhyCs7": 1.0,
+	"XbZKksLRcgsbmXArRZ22iiFs7DWsYTuZcS": 1.0
+    },
+
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 20,
+        "minimumPayment": 0.01,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 9000,
+            "user": "dash",
+            "password": "pass"
+        }
+    },
+
+    "ports": {
+        "3008": {
+            "diff": 8
+        },
+        "3032": {
+            "diff": 32,
+            "varDiff": {
+                "minDiff": 8,
+                "maxDiff": 512,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        },
+        "3256": {
+            "diff": 256
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 9000,
+            "user": "dash",
+            "password": "pass"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}

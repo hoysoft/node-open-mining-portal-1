@@ -1,0 +1,7 @@
+{
+    "name": "Dash",
+    "symbol": "DASH",
+    "algorithm": "x11",
+    "mposDiffMultiplier": 256	
+}
+
