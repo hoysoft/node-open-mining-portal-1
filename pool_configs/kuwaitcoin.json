@@ -2,11 +2,11 @@
     "enabled": true,
     "coin": "kuwaitcoin.json",
 
-    "address": "KGVd9AAQxWT9bEgufy9zueKiVi5a5VNS41",
+    "address": "KSZTyEhQ3ToQFkHdDkruW1azhiYRKGGqzt",
 
     "rewardRecipients": {
-        "KJhYQVzHmaD6ojrLqrVAcvvMXissy9HsPP": 0.75,
-        "KDfR6M46t7JfMcA9ZxsHRED49Ro6g8Fdi5": 0.75
+        "KATspvB9J37bxWMEo4qKFi7iLy5ceoBVcN": 0.75,
+        "K8yo5Vs3cQnnuFhiZCGUDtHCuMVE8X1yYr": 0.75
     },
 
     "paymentProcessing": {
