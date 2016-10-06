@@ -2,11 +2,11 @@
     "enabled": true,
     "coin": "geocoin.json",
 
-    "address": "GT2jYUrn4qauYfXhzjSxBAoadLztVQu86V",
+    "address": "GKHrrY813BnLDtyMbZrififPUdjfRfR3oC",
 
     "rewardRecipients": {
-        "GVWkhG2Rw7SzqtKZCTurvDnCVHaThZfwaA": 0.75,
-        "GddEtuatt1yWjYN2FM5A5EoWHAQnhbLiSY": 0.75
+        "GLUDdADoJNRTQFP59a2yGFjrn77AocBQL5": 0.75,
+        "GSX3kaTcX6hgSR5ugevYoydQbTWUbghSBn": 0.75
     },
 
     "paymentProcessing": {
@@ -15,7 +15,7 @@
         "minimumPayment": 1,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 9003,
+            "port": 9002,
             "user": "geocoinrpc",
             "password": "AxTgHP4xanuyuK5jXnYhsjg51UwJN24LJjAD5jndcsHG"
         }
@@ -23,27 +23,31 @@
 
     "ports": {
         "3001": {
-            "diff": 8
-        },
+           "diff": 256,
+           "varDiff": {
+               "minDiff": 8,
+               "maxDiff": 1024,
+               "targetTime": 10,
+               "retargetTime": 20,
+               "variancePercent": 40
+             }
+         }, 
         "3002": {
-            "diff": 32,
+            "diff": 1024,
             "varDiff": {
-                "minDiff": 16,
+                "minDiff": 1024,
                 "maxDiff": 8192,
-                "targetTime": 15,
+                "targetTime": 10,
                 "retargetTime": 20,
                 "variancePercent": 40
             }
-        },
-        "3256": {
-            "diff": 256
         }
     },
 
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 9003,
+            "port": 9002,
             "user": "geocoinrpc",
             "password": "AxTgHP4xanuyuK5jXnYhsjg51UwJN24LJjAD5jndcsHG"
         }
