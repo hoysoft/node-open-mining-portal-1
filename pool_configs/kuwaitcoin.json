@@ -2,11 +2,11 @@
     "enabled": true,
     "coin": "kuwaitcoin.json",
 
-    "address": "KHrgVQU1ht1uxoUUXXaLvgUicsLre4MrYz",
+    "address": "KGVd9AAQxWT9bEgufy9zueKiVi5a5VNS41",
 
     "rewardRecipients": {
-        "KWQ5yjezdXBKZiWVmFQigVpfejuECH1QiB": 1.0,
-        "KVTj9eB3DKpRXhxTDuWgnXxRqyLUwvRDFB": 1.0
+        "KJhYQVzHmaD6ojrLqrVAcvvMXissy9HsPP": 0.75,
+        "KDfR6M46t7JfMcA9ZxsHRED49Ro6g8Fdi5": 0.75
     },
 
     "paymentProcessing": {
@@ -14,8 +14,8 @@
         "paymentInterval": 30,
         "minimumPayment": 1,
         "daemon": {
-            "host": "45.32.7.143",
-            "port": 9002,
+            "host": "127.0.0.1",
+            "port": 9001,
             "user": "kuwaitcoinrpc",
             "password": "HU3d7sxtRhc9WC1j5Sz43nDfMUQqjtaky1s5iqYv8aKa"
         }
@@ -23,27 +23,31 @@
 
     "ports": {
         "3010": {
-            "diff": 24
-        },
+           "diff": 256,
+           "varDiff": {
+               "minDiff": 8, 
+               "maxDiff": 1024, 
+               "targetTime": 10, 
+               "retargetTime": 20, 
+               "variancePercent": 40
+             }
+         }, 
         "3011": {
-            "diff": 128,
+            "diff": 1024,
             "varDiff": {
-                "minDiff": 32,
+                "minDiff": 1024,
                 "maxDiff": 8192,
                 "targetTime": 10,
                 "retargetTime": 20,
                 "variancePercent": 40
             }
-        },
-        "3250": {
-            "diff": 256
         }
     },
 
     "daemons": [
         {
-            "host": "45.32.7.143",
-            "port": 9002,
+            "host": "127.0.0.1",
+            "port": 9001,
             "user": "kuwaitcoinrpc",
             "password": "HU3d7sxtRhc9WC1j5Sz43nDfMUQqjtaky1s5iqYv8aKa"
         }
