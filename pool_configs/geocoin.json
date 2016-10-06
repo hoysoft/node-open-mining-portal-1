@@ -2,11 +2,11 @@
     "enabled": true,
     "coin": "geocoin.json",
 
-    "address": "GKHrrY813BnLDtyMbZrififPUdjfRfR3oC",
+    "address": "GSwcmsrRQGjo679kprq2yzHiTtYwDtkyd6",
 
     "rewardRecipients": {
-        "GLUDdADoJNRTQFP59a2yGFjrn77AocBQL5": 0.75,
-        "GSX3kaTcX6hgSR5ugevYoydQbTWUbghSBn": 0.75
+        "GaqsZGek55LjHvg7bAyJQVy4GRvissrCtr": 0.75,
+        "GfSMvoU4ZY9dSnbXNJ9iP6krq6AqYkzwBJ": 0.75
     },
 
     "paymentProcessing": {
