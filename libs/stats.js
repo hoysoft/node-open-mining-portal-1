@@ -24,6 +24,8 @@ module.exports = function(logger, portalConfig, poolConfigs){
     this.stats = {};
     this.statsString = '';
 
+    this.poolConfigs = poolConfigs;
+
     setupStatsRedis();
     gatherStatHistory();
 
@@ -34,7 +36,6 @@ module.exports = function(logger, portalConfig, poolConfigs){
         if (!canDoStats) return;
 
         var poolConfig = poolConfigs[coin];
-
         var redisConfig = poolConfig.redis;
 
         for (var i = 0; i < redisClients.length; i++){
@@ -102,6 +103,7 @@ module.exports = function(logger, portalConfig, poolConfigs){
         var statGatherTime = Date.now() / 1000 | 0;
 
         var allCoinStats = {};
+        var that = this;
 
         async.each(redisClients, function(client, callback){
             var windowTime = (((Date.now() / 1000) - portalConfig.website.stats.hashrateWindow) | 0).toString();
@@ -136,6 +138,8 @@ module.exports = function(logger, portalConfig, poolConfigs){
                 else{
                     for(var i = 0; i < replies.length; i += commandsPerCoin){
                         var coinName = client.coins[i / commandsPerCoin | 0];
+                        var coinPorts = that.poolConfigs[coinName]["ports"];
+
                         var coinStats = {
                             name: coinName,
                             symbol: poolConfigs[coinName].coin.symbol.toUpperCase(),
@@ -151,8 +155,20 @@ module.exports = function(logger, portalConfig, poolConfigs){
                                 pending: replies[i + 3],
                                 confirmed: replies[i + 4],
                                 orphaned: replies[i + 5]
+                            },
+                            stratum_urls: {
                             }
                         };
+
+                        var portKeys = Object.keys(coinPorts);
+
+                        for(var j=0; j<portKeys.length; j++){
+                            var key = portKeys[j];
+                            var port = coinPorts[key];
+                            var diff = port["diff"];
+                            coinStats['stratum_urls'][diff] = 'stratum+tcp://45.32.7.143:' + key;
+                        }
+
                         allCoinStats[coinStats.name] = (coinStats);
                     }
                     callback();

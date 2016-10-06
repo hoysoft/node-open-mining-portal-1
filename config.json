@@ -15,7 +15,7 @@
         "connectionTimeout": 600,
         "emitInvalidBlockHashes": false,
         "validateWorkerUsername": true,
-        "tcpProxyProtocol": false,
+        "tcpProxyProtocol": true,
         "banning": {
             "enabled": true,
             "time": 600,
@@ -24,29 +24,29 @@
             "purgeInterval": 300
         },
         "redis": {
-            "host": "127.0.0.1",
+            "host": "104.238.187.94",
             "port": 6379
         }
     },
 
     "website": {
         "enabled": true,
-        "host": "gflare.io",
+        "host": "127.0.0.1",
         "port": 8080,
-        "stratumHost": "gflare.io",
+        "stratumHost": "127.0.0.1",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
             "hashrateWindow": 300
         },
         "adminCenter": {
-            "enabled": true,
+            "enabled": false,
             "password": "password"
         }
     },
 
     "redis": {
-        "host": "127.0.0.1",
+        "host": "104.238.187.94",
         "port": 6379
     },
 
