@@ -1,0 +1,75 @@
+{
+    "enabled": true,
+    "coin": "jincoin.json",
+
+    "address": "JazxZxK7susE5qQcyq8xcmuwEPeyvDj5qt",
+
+    "rewardRecipients": {
+        "Jgp6Hi6Ydqn6gHvQnBVPBRiuL8vc4WoYA2": 0.5,
+        "JdoHUconmzq3uSAotf8ghGUCZgAiqeY7Pf": 0.5
+    },
+
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 30,
+        "minimumPayment": 1,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 9006,
+            "user": "jinrpc",
+            "password": "3xgrQybFp8aHTGGim8MpkiVd234asdf9S6QunpVWAdhNJ"
+        }
+    },
+
+    "ports": {
+        "3015": {
+           "diff": 256,
+           "varDiff": {
+               "minDiff": 8, 
+               "maxDiff": 1024, 
+               "targetTime": 10, 
+               "retargetTime": 20, 
+               "variancePercent": 40
+             }
+         }, 
+        "3016": {
+            "diff": 1024,
+            "varDiff": {
+                "minDiff": 1024,
+                "maxDiff": 8192,
+                "targetTime": 10,
+                "retargetTime": 20,
+                "variancePercent": 40
+            }
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 9006,
+            "user": "jinrpc",
+            "password": "3xgrQybFp8aHTGGim8MpkiVd234asdf9S6QunpVWAdhNJ"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}
+
