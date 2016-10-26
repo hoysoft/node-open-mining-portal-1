@@ -166,7 +166,7 @@ module.exports = function(logger, portalConfig, poolConfigs){
                             var key = portKeys[j];
                             var port = coinPorts[key];
                             var diff = port["diff"];
-                            coinStats['stratum_urls'][diff] = 'stratum+tcp://45.32.7.143:' + key;
+                            coinStats['stratum_urls'][diff] = 'stratum+tcp://strat.gflare.io:' + key;
                         }
 
                         allCoinStats[coinStats.name] = (coinStats);
