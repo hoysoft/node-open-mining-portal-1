@@ -1,5 +1,5 @@
 {
-    "enabled": false,
+    "enabled": true,
     "coin": "geocoin.json",
 
     "address": "GSwcmsrRQGjo679kprq2yzHiTtYwDtkyd6",
