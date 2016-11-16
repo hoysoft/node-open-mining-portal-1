@@ -1,0 +1,77 @@
+{
+    "enabled": true,
+    "coin": "zcoindark.json",
+
+    "address": "XL43bVL1tQP6BuzRNfX7Y1QUuDFSascuyQ",
+
+    "rewardRecipients": {
+        "XLws38D42aZaAupiWUzFRVRmMoELY12ew9": 1,
+        "XEnLujfL6e2cUyzz5D6nB73qxfMrfvEv7A": 1
+    },
+
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 60,
+        "minimumPayment": 1,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 9009,
+            "user": "zcoindark",
+            "password": "UbsmmkSrMnafdvfdg34qj34tlkj43g8237rouiyq324t"
+        }
+    },
+
+    "ports": {
+        "3024": {
+           "diff": 256,
+           "varDiff": {
+               "minDiff": 8, 
+               "maxDiff": 1024, 
+               "targetTime": 10, 
+               "retargetTime": 20, 
+               "variancePercent": 40
+             }
+         }, 
+        "3025": {
+            "diff": 1024,
+            "varDiff": {
+                "minDiff": 1024,
+                "maxDiff": 8192,
+                "targetTime": 10,
+                "retargetTime": 20,
+                "variancePercent": 40
+            }
+        },
+        "3026": {
+	   "diff": 8192
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 9007,
+            "user": "zcoindark",
+            "password": "UbsmmkSrMnafdvfdg34qj34tlkj43g8237rouiyq324t"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}
