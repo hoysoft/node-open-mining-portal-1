@@ -1,5 +1,5 @@
 {
-    "enabled": false,
+    "enabled": true,
     "coin": "jincoin.json",
 
     "address": "JazxZxK7susE5qQcyq8xcmuwEPeyvDj5qt",
@@ -11,7 +11,7 @@
 
     "paymentProcessing": {
         "enabled": true,
-        "paymentInterval": 30,
+        "paymentInterval": 900,
         "minimumPayment": 1,
         "daemon": {
             "host": "127.0.0.1",
