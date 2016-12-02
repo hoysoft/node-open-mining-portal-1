@@ -1,58 +1,58 @@
 {
-    "enabled": false,
-    "coin": "zcashdark.json",
+    "enabled": true,
+    "coin": "zcoin.json",
 
-    "address": "ZZi8CF4mfvJFvyTPgAdkye46Yoj5jyQHtH",
+    "address": "aFb68xxw8Wqi69aBipkK71MWRmvNdJGc5A",
 
     "rewardRecipients": {
-        "ZVks1VGuFrQA86Bqphp8Pgbydvg1rrRPvs": 0.75,
-        "ZPApy4MaxUXXNcNpbwRujBuL5KcA9iT3bz": 0.75
+        "a6sQaASFziyxPgpsYqXfqCSufgHuP7wYbm": 0.11,
+        "aNCJ6efmi1t5qaEZANyfmZL5HSuUthWn7X": 0.11
     },
 
     "paymentProcessing": {
         "enabled": true,
-        "paymentInterval": 60,
+        "paymentInterval": 900,
         "minimumPayment": 1,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 9007,
-            "user": "zcashdark",
-            "password": "UbsmmkSrMn14mDgalqj34tlkj43g8237rouiyq324t"
+            "port": 9011,
+            "user": "zcoinrpc",
+            "password": "ZDkqwcX123i3UGc8n823gRSpDSdxsib6MJLDXVKVWUi"
         }
     },
 
     "ports": {
         "3018": {
-           "diff": 256,
+           "diff": 2,
            "varDiff": {
-               "minDiff": 8, 
-               "maxDiff": 1024, 
+               "minDiff": 1, 
+               "maxDiff": 5, 
                "targetTime": 10, 
                "retargetTime": 20, 
                "variancePercent": 40
              }
          }, 
         "3019": {
-            "diff": 1024,
+            "diff": 6,
             "varDiff": {
-                "minDiff": 1024,
-                "maxDiff": 8192,
+                "minDiff": 5,
+                "maxDiff": 9,
                 "targetTime": 10,
                 "retargetTime": 20,
                 "variancePercent": 40
             }
         },
         "3020": {
-	   "diff": 8192
+	   "diff": 10
         }
     },
 
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 9007,
-            "user": "zcashdark",
-            "password": "UbsmmkSrMn14mDgalqj34tlkj43g8237rouiyq324t"
+            "port": 9011,
+            "user": "zcoinrpc",
+            "password": "ZDkqwcX123i3UGc8n823gRSpDSdxsib6MJLDXVKVWUi"
         }
     ],
 
