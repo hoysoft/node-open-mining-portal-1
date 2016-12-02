@@ -1,6 +1,6 @@
 {
     "name": "Wrapper",
     "symbol": "WRP",
-    "algorithm": "scrypt"
+    "algorithm": "lyra2rev2"
 }
 
