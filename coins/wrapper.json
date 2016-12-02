@@ -1,7 +1,7 @@
 {
     "name": "Wrapper",
     "symbol": "WRP",
-    "algorithm": "scrypt-n"
+    "algorithm": "scrypt-n",
     "timeTable": {
         "2048": 1390959880,
         "4096": 1438295269,
