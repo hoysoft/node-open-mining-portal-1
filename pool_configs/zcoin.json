@@ -23,30 +23,30 @@
 
     "ports": {
         "3018": {
-          "diff": 0.0001,
+          "diff": 0.00005,
           "varDiff": {
-            "minDiff": 0.00005,
-            "MaxDiff": 0.0003,
+            "minDiff": 0.000025,
+            "MaxDiff": 0.00015,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
           }
         },
         "3019": {
-          "diff": 0.0002,
+          "diff": 0.0001,
           "varDiff": {
-            "minDiff": 0.0001,
-            "MaxDiff": 0.0005,
+            "minDiff": 0.00005,
+            "MaxDiff": 0.00025,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
           }
         },
         "3020": {
-          "diff": 0.0005,
+          "diff": 0.00025,
           "varDiff": {
-            "minDiff": 0.0004,
-            "MaxDiff": 0.0008,
+            "minDiff": 0.0002,
+            "MaxDiff": 0.0004,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
