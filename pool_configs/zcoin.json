@@ -23,21 +23,21 @@
 
     "ports": {
         "3018": {
-            "diff": 0.05
+            "diff": 0.00005
         },
         "3019": {
-            "diff": 0.1
+            "diff": 0.0001
         },
         "3020": {
-	   "diff": 0.25
+	   "diff": 0.0025
         },
         "3021": {
-          "diff": 0.3
+          "diff": 0.003
         },
         "3022": {
-          "diff": 0.5,
+          "diff": 0.005,
           "varDiff": {
-            "minDiff": 0.4,
+            "minDiff": 0.004,
             "MaxDiff": 1,
             "targetTime": 10,
             "retargetTime": 20,
