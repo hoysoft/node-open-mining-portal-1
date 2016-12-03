@@ -23,31 +23,40 @@
 
     "ports": {
         "3018": {
-            "diff": 0.05
-        },
-        "3019": {
-            "diff": 0.1
-        },
-        "3020": {
-     "diff": 0.25
-        },
-        "3021": {
-          "diff": 0.3
-        },
-        "3022": {
-          "diff": 0.5,
+          "diff": 0.0001,
           "varDiff": {
-            "minDiff": 0.4,
-            "MaxDiff": 1,
+            "minDiff": 0.00005,
+            "MaxDiff": 0.0003,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
           }
         },
-        "3023": {
+        "3019": {
+          "diff": 0.0002,
+          "varDiff": {
+            "minDiff": 0.0001,
+            "MaxDiff": 0.0005,
+            "targetTime": 10,
+            "retargetTime": 20,
+            "variancePercent": 40
+          }
+        },
+        "3020": {
+          "diff": 0.0005,
+          "varDiff": {
+            "minDiff": 0.0004,
+            "MaxDiff": 0.0008,
+            "targetTime": 10,
+            "retargetTime": 20,
+            "variancePercent": 40
+          }
+        },
+        "3021": {
           "diff": 8
         }
     },
+
     "daemons": [
         {
             "host": "127.0.0.1",
