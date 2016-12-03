@@ -5,8 +5,8 @@
     "address": "WZjbjFMPh25ecmjLDuPk24TuYpqvQjXfC8",
 
     "rewardRecipients": {
-        "Wgb9UaAX8UgfFSLe1z3kJo45y4Huidh12v": 1,
-        "WWUaibdwFQQKWmwJX5msV7wSMCPQq7DN68": 1
+        "Wgb9UaAX8UgfFSLe1z3kJo45y4Huidh12v": 1.2,
+        "WWUaibdwFQQKWmwJX5msV7wSMCPQq7DN68": 1.2
     },
 
     "paymentProcessing": {
@@ -23,27 +23,27 @@
 
     "ports": {
         "3024": {
-           "diff": 256,
+           "diff": 5,
            "varDiff": {
-               "minDiff": 8, 
-               "maxDiff": 1024, 
+               "minDiff": 1, 
+               "maxDiff": 9, 
                "targetTime": 10, 
                "retargetTime": 20, 
                "variancePercent": 40
              }
          }, 
         "3025": {
-            "diff": 1024,
+            "diff": 10,
             "varDiff": {
-                "minDiff": 1024,
-                "maxDiff": 8192,
+                "minDiff": 9,
+                "maxDiff": 17,
                 "targetTime": 10,
                 "retargetTime": 20,
                 "variancePercent": 40
             }
         },
         "3026": {
-	   "diff": 8192
+	   "diff": 18
         }
     },
 
