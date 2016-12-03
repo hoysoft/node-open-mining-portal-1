@@ -23,29 +23,29 @@
 
     "ports": {
         "3018": {
-            "diff": 1
+            "diff": 0.05
         },
         "3019": {
-            "diff": 2
+            "diff": 0.1
         },
         "3020": {
-	   "diff": 3
+	   "diff": 0.25
         },
         "3021": {
-          "diff": 4
+          "diff": 0.3
         },
         "3022": {
-          "diff": 5,
+          "diff": 0.5,
           "varDiff": {
-            "minDiff": 5,
-            "MaxDiff": 8,
+            "minDiff": 0.4,
+            "MaxDiff": 1,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
           }
         },
         "3023": {
-          "diff": 9
+          "diff": 8
         }
     },
     "daemons": [
