@@ -11,7 +11,7 @@
 
     "paymentProcessing": {
         "enabled": true,
-        "paymentInterval": 30,
+        "paymentInterval": 990,
         "minimumPayment": 1,
         "daemon": {
             "host": "127.0.0.1",
