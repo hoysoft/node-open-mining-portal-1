@@ -33,27 +33,24 @@
           }
         },
         "3019": {
-          "diff": 0.0001,
+          "diff": 0.00005,
           "varDiff": {
-            "minDiff": 0.00005,
-            "MaxDiff": 0.00025,
+            "minDiff": 0.000025,
+            "MaxDiff": 0.00015,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
           }
         },
         "3020": {
-          "diff": 0.00025,
+          "diff": 0.00005,
           "varDiff": {
-            "minDiff": 0.0002,
-            "MaxDiff": 0.0004,
+            "minDiff": 0.000025,
+            "MaxDiff": 0.00015,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
           }
-        },
-        "3021": {
-          "diff": 8
         }
     },
 
