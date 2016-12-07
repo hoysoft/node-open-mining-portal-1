@@ -26,27 +26,27 @@
           "diff": 0.00005,
           "varDiff": {
             "minDiff": 0.000020,
-            "MaxDiff": 0.00015,
+            "MaxDiff": 0.15,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
           }
         },
         "3025": {
-          "diff": 0.00005,
+          "diff": 0.000051,
           "varDiff": {
             "minDiff": 0.000020,
-            "MaxDiff": 0.00015,
+            "MaxDiff": 0.15,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
           }
         },
         "3026": {
-          "diff": 0.00005,
+          "diff": 0.000052,
           "varDiff": {
             "minDiff": 0.000020,
-            "MaxDiff": 0.00015,
+            "MaxDiff": 0.15,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
