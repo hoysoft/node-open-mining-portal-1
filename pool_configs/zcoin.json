@@ -23,10 +23,10 @@
 
     "ports": {
         "3018": {
-          "diff": 0.00005,
+          "diff": 0.00003906,
           "varDiff": {
-            "minDiff": 0.000025,
-            "MaxDiff": 0.00015,
+            "minDiff": 0.000015,
+            "MaxDiff": 0.15,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40

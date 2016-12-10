@@ -23,7 +23,7 @@
 
    "ports": {
         "3024": {
-          "diff": 0.00005,
+          "diff": 0.00003906,
           "varDiff": {
             "minDiff": 0.000020,
             "MaxDiff": 0.15,
