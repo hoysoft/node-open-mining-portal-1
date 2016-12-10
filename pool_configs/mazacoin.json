@@ -41,6 +41,16 @@
                 "retargetTime": 20,
                 "variancePercent": 40
             }
+        },
+        "3012": {
+          "diff": 8192,
+          "varDiff": {
+            "minDiff": 8192,
+            "maxDiff": 65536,
+            "targetTime": 10,
+            "retargetTime": 20,
+            "variancePercent": 40
+          }
         }
     },
 
