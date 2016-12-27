@@ -2,11 +2,11 @@
     "enabled": true,
     "coin": "zcoin.json",
 
-    "address": "aFb68xxw8Wqi69aBipkK71MWRmvNdJGc5A",
+    "address": "TFMWmBPC1yqCvxQbE65EnrGtKEk65GYuAW",
 
     "rewardRecipients": {
-        "a6sQaASFziyxPgpsYqXfqCSufgHuP7wYbm": 1.1,
-        "aNCJ6efmi1t5qaEZANyfmZL5HSuUthWn7X": 1.1
+        "TEV2WUMr1JPbBLuJuDmaLdGcidV8UzMgLR": 1.1,
+        "TTTWg9EbycWjnRUGQgvv1QtGTPLbT32vty": 1.1
     },
 
     "paymentProcessing": {
@@ -36,7 +36,7 @@
           "diff": 0.00039062,
           "varDiff": {
             "minDiff": 0.000025,
-            "MaxDiff": 0.0015,
+            "MaxDiff": 0.0052,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
