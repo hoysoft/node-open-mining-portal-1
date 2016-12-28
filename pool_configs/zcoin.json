@@ -2,11 +2,11 @@
     "enabled": true,
     "coin": "zcoin.json",
 
-    "address": "TFMWmBPC1yqCvxQbE65EnrGtKEk65GYuAW",
+    "address": "aMkb2wZ3Pzu7LfLk1snwLrvZ8Faxg2ZCkU",
 
     "rewardRecipients": {
-        "TEV2WUMr1JPbBLuJuDmaLdGcidV8UzMgLR": 1.1,
-        "TTTWg9EbycWjnRUGQgvv1QtGTPLbT32vty": 1.1
+        "a9br63eb3U9LoxH6N3j5XYXkrWwjwTKwKC": 1.1,
+        "aHDnrxqaSPKpzkrbrRFq6ZF2z3Wk5o8L2o": 1.1
     },
 
     "paymentProcessing": {
