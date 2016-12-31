@@ -2,11 +2,11 @@
     "enabled": true,
     "coin": "returnbit.json",
 
-    "address": "XQVGodMA6oMC3eiWEoXURVdoMEUf1EStwv",
+    "address": "XDogJqM3DPWsEsNtQacvetwvdYAXDyFvM4",
 
     "rewardRecipients": {
-        "XVQtGANf9PyUo4Ao3gpY6uKMDcotDWr9xN": 1,
-        "XTXVUTowCcu4ZiFBGdv55MaZMmq5k2PcSo": 1
+        "XBUGDbd2qZHaWs8j6ML3uoECFajEzSPQCz": 1,
+        "XWryD9fNjYwLGt5qNEqgVApxu3cEiEuEnP": 1
     },
 
     "paymentProcessing": {
@@ -15,9 +15,9 @@
         "minimumPayment": 1,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 9013,
-            "user": "returnbitrpc",
-            "password": "5Pi6ULU4DzNizQAEBET2RsAfMpdsdfg34tQEa8ogzW9Uc1"
+            "port": 9332,
+            "user": "124308927592735h2",
+            "password": "124891429185098"
         }
     },
 
@@ -50,9 +50,9 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 9013,
-            "user": "returnbitrpc",
-            "password": "5Pi6ULU4DzNizQAEBET2RsAfMpdsdfg34tQEa8ogzW9Uc1"
+            "port": 9332,
+            "user": "124308927592735h2",
+            "password": "124891429185098"
         }
     ],
 
