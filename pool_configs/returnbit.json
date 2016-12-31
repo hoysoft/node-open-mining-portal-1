@@ -58,7 +58,7 @@
 
     "p2p": {
         "enabled": true,
-        "host": "127.0.0.1",
+        "host": "159.203.109.115",
         "port": 9313,
         "disableTransactions": true
     },
