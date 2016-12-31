@@ -15,9 +15,9 @@
         "minimumPayment": 1,
         "daemon": {
             "host": "159.203.109.115",
-            "port": 9332,
-            "user": "124308927592735h2",
-            "password": "124891429185098"
+            "port": 9013,
+            "user": "returnbitrpc",
+            "password": "fudge3497stix"
         }
     },
 
@@ -50,9 +50,9 @@
     "daemons": [
         {
             "host": "159.203.109.115",
-            "port": 9332,
-            "user": "124308927592735h2",
-            "password": "124891429185098"
+            "port": 9013,
+            "user": "returnbitrpc",
+            "password": "fudge3497stix"
         }
     ],
 
@@ -75,4 +75,3 @@
     }
 
 }
-
