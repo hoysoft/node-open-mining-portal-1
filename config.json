@@ -24,15 +24,15 @@
             "purgeInterval": 300
         },
         "redis": {
-            "host": "104.238.187.94",
+            "host": "127.0.0.1",
             "port": 6379
         }
     },
 
     "website": {
         "enabled": true,
-        "host": "127.0.0.1",
-        "port": 8080,
+        "host": "0.0.0.0",
+        "port": 80,
         "stratumHost": "127.0.0.1",
         "stats": {
             "updateInterval": 60,
@@ -46,7 +46,7 @@
     },
 
     "redis": {
-        "host": "104.238.187.94",
+        "host": "127.0.0.1",
         "port": 6379
     },
 
