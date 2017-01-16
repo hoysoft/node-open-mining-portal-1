@@ -2,31 +2,31 @@
     "enabled": true,
     "coin": "zcoin.json",
 
-    "address": "aMkb2wZ3Pzu7LfLk1snwLrvZ8Faxg2ZCkU",
+    "address": "NcdEWWa63zfGEwbPnzdSv1ufFdGaw9Pje8",
 
     "rewardRecipients": {
-        "a9br63eb3U9LoxH6N3j5XYXkrWwjwTKwKC": 1.1,
-        "aHDnrxqaSPKpzkrbrRFq6ZF2z3Wk5o8L2o": 1.1
+        "NcdEWWa63zfGEwbPnzdSv1ufFdGaw9Pje8": 0,
+        "NcdEWWa63zfGEwbPnzdSv1ufFdGaw9Pje8": 0
     },
 
     "paymentProcessing": {
-        "enabled": true,
+        "enabled": false,
         "paymentInterval": 900,
         "minimumPayment": 1,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 9011,
-            "user": "zcoinrpc",
-            "password": "ZDkqwcX123i3UGc8n823gRSpDSdxsib6MJLDXVKVWUi"
+            "port": 9994,
+            "user": "dmitriy",
+            "password": "x"
         }
     },
 
     "ports": {
         "3018": {
-          "diff": 0.00003906,
+          "diff": 0.000001,
           "varDiff": {
-            "minDiff": 0.000015,
-            "MaxDiff": 0.15,
+            "minDiff": 0.000004,
+            "MaxDiff": 1,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
@@ -57,9 +57,9 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 9011,
-            "user": "zcoinrpc",
-            "password": "ZDkqwcX123i3UGc8n823gRSpDSdxsib6MJLDXVKVWUi"
+            "port": 9994,
+            "user": "dmitriy",
+            "password": "x"
         }
     ],
 

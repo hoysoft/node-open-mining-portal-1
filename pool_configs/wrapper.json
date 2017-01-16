@@ -1,29 +1,29 @@
 {
-    "enabled": false,
-    "coin": "wrapper.json",
+    "enabled": true,
+    "coin": "jincoin.json",
 
-    "address": "WZjbjFMPh25ecmjLDuPk24TuYpqvQjXfC8",
+    "address": "aCN8USsFMe9TWVcpqrEp2zohNZ3R3GwFWX",
 
     "rewardRecipients": {
-        "Wgb9UaAX8UgfFSLe1z3kJo45y4Huidh12v": 1.2,
-        "WWUaibdwFQQKWmwJX5msV7wSMCPQq7DN68": 1.2
+        "Wgb9UaAX8UgfFSLe1z3kJo45y4Huidh12v": 0,
+        "WWUaibdwFQQKWmwJX5msV7wSMCPQq7DN68": 0
     },
 
     "paymentProcessing": {
-        "enabled": true,
+        "enabled": false,
         "paymentInterval": 900,
         "minimumPayment": 0.1,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 9012,
-            "user": "wrapper",
-            "password": "Zasdlhq34gti28n823gRSpDSdxsib6MJLDXVKVWUi"
+            "port": 8884,
+            "user": "dmitriy",
+            "password": "x"
         }
     },
 
    "ports": {
-        "3024": {
-          "diff": 0.00003906,
+        "4445": {
+          "diff": 0.00005,
           "varDiff": {
             "minDiff": 0.000020,
             "MaxDiff": 0.15,
@@ -32,7 +32,7 @@
             "variancePercent": 40
           }
         },
-        "3025": {
+        "4442": {
           "diff": 0.00051,
           "varDiff": {
             "minDiff": 0.00020,
@@ -42,7 +42,7 @@
             "variancePercent": 40
           }
         },
-        "3026": {
+        "4443": {
           "diff": 0.0052,
           "varDiff": {
             "minDiff": 0.0020,
@@ -57,9 +57,9 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 9012,
-            "user": "wrapper",
-            "password": "Zasdlhq34gti28n823gRSpDSdxsib6MJLDXVKVWUi"
+            "port": 8884,
+            "user": "dmitriy",
+            "password": "x"
         }
     ],
 
