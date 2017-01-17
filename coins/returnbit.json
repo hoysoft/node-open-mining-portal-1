@@ -1,7 +1,0 @@
-{
-    "name": "Returnbit",
-    "symbol": "RBIT",
-    "algorithm": "scrypt",
-    "peerMagic": "a1b2c3d4",
-    "peerMagicTestnet": "a2bbbdda"
-}
