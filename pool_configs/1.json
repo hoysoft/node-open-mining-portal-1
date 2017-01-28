@@ -23,10 +23,10 @@
 
    "ports": {
         "4445": {
-          "diff": 0.00005,
+          "diff": 0.01,
           "varDiff": {
-            "minDiff": 0.000020,
-            "MaxDiff": 0.15,
+            "minDiff": 0.001,
+            "MaxDiff": 10,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
