@@ -1,8 +1,8 @@
 {
-    "enabled": false,
+    "enabled": true,
     "coin": "2.json",
 
-    "address": "NcdEWWa63zfGEwbPnzdSv1ufFdGaw9Pje8",
+    "address": "ZFhKUgQYhVGFnyHWqV4vmfJBKgCoR2eHyy",
 
     "rewardRecipients": {
         "NcdEWWa63zfGEwbPnzdSv1ufFdGaw9Pje8": 0,
