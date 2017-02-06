@@ -2,7 +2,7 @@
     "enabled": true,
     "coin": "2.json",
 
-    "address": "ZFhKUgQYhVGFnyHWqV4vmfJBKgCoR2eHyy",
+    "address": "ZNH3qyXTQGJSRhcKseCSmuA2hiiF1cPMRN",
 
     "rewardRecipients": {
         "NcdEWWa63zfGEwbPnzdSv1ufFdGaw9Pje8": 0,
@@ -23,10 +23,10 @@
 
     "ports": {
         "3018": {
-          "diff": 0.000001,
+          "diff": 0.0001,
           "varDiff": {
-            "minDiff": 0.000004,
-            "MaxDiff": 1,
+            "minDiff": 0.0001,
+            "MaxDiff": 1000,
             "targetTime": 10,
             "retargetTime": 20,
             "variancePercent": 40
