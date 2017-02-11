@@ -2,7 +2,7 @@
     "enabled": true,
     "coin": "1.json",
 
-    "address": "aCN8USsFMe9TWVcpqrEp2zohNZ3R3GwFWX",
+    "address": "HJ6to7is7gdkYS5QuzxcUfCg1ndYinBJ5i",
 
     "rewardRecipients": {
         "Wgb9UaAX8UgfFSLe1z3kJo45y4Huidh12v": 0,
@@ -15,7 +15,7 @@
         "minimumPayment": 0.1,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 8884,
+            "port": 7774,
             "user": "dmitriy",
             "password": "x"
         }
@@ -23,9 +23,9 @@
 
    "ports": {
         "4445": {
-          "diff": 0.001,
+          "diff": 0.00016,
           "varDiff": {
-            "minDiff": 0.001,
+            "minDiff": 0.00016,
             "MaxDiff": 10,
             "targetTime": 10,
             "retargetTime": 20,
@@ -57,7 +57,7 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 8884,
+            "port": 7774,
             "user": "dmitriy",
             "password": "x"
         }
