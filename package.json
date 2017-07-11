@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/romanornr/stratum-miningpool",
+    "homepage": "https://github.com/hzeyoo/stratum-miningpool",
     "bugs": {
-        "url": "https://github.com/romanornr/stratum-miningpool/issues"
+        "url": "https://github.com/hzeyoo/stratum-miningpool/issues"
     },
     "license": "GPL-2.0",
     "author": "Romano",
@@ -29,10 +29,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/romanornr/stratum-miningpool.git"
+        "url": "https://github.com/hzeyoo/stratum-miningpool.git"
     },
     "dependencies": {
-        "stratum-pool": "git://github.com/dmitriy79/c.git",
+        "stratum-pool": "git://github.com/hzeyoo/node-stratum-pool.git",
         "dateformat": "*",
         "node-json-minify": "*",
         "redis": "*",
