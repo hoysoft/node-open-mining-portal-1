@@ -4,7 +4,7 @@ node_js:
     - '0.12.13'  
 deploy:
     provider: npm
-    sudo: false
+    sudo: true
     email: romanornr@gmail.com
     api_key:
       secure: o+bo3OUX2dUFpvJgk8FhToWqKU9Rp5z7aRxXMNNgUAXifGomWPCcrnafxIQVh+qGutO9ASljbfoDblb96cLfUhqWn2Q4mt2UVZshuHbqCKf1iBKm63+XyKisUbhDMWoUFwu/uZxCwI1NxSG0iBuiU747HkIm3waf9k4BIyOyOPl/CxK1CuUmrss3/sf8bzfd6Mq3hBqSomhY+ZVcLE+1pM/dnQ6ez7JGKtAzSlmrzm8/UzPzcckVEae4HJ2GB7m1vLBs7uuD6GyzE3Brj5BdkfP6tnBff7ZAfn1ABsw4onTozwJGhQBsK6xjPm13ThcRd3OpqFSgfE1ITtS8yr0yqfrCrLq5/rN2eNPwjqFJFfVK/GsBKj2mSZT4ugxyAXACE9nq6ebQzEj7MJgfveFcUp0L/ZU9bQPImHoV3pDeDat/5ygG7L3Mr7aD00WL8egdfXUjty96qACOXHndU4FZfF1wdjR3dFwc6eI7qfl6rqmLQ9/0Xcdw1AWy1Qt1oJoEGvVmW7HLfQS6OK22tIsETGgf3zixMx+NSI/DkkKfXEOfco21+yOQ3mL+y8qg0MBp7Dk26t1iJjOJD2FptCSf+tfoFPp5ebFeeC0j0SWcVGy1bqj2YrEILh7Fpno5WN4RSK+3Wvi1W8Uqcj8ecbGuS8XAubRKG7nEhOEkQk9cbfA=
